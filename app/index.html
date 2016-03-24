@@ -11,7 +11,9 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/gameboy.css">
     <!-- endbuild -->
   </head>
   <body ng-app="pokedexApp">
@@ -41,6 +43,21 @@
     </div>
 
     <div class="container">
+      <div class="gameboy-body">
+        <div class="screen-border">
+          <div class="screen-border-reflex"></div>
+          <div class="screen-left-border-container">
+            <div class="power-led"></div>
+          </div>
+          <div class="screen">
+            <div class="screen-reflex"></div>
+            <div class="screen-depth"></div>
+          </div>
+          <div class="screen-bottom-border-container">
+            <img src="images/gameboy-logo.png" alt="Gameboy Color" class="logo">
+          </div>
+        </div>
+      </div>
     <div ng-view=""></div>
     </div>
 
