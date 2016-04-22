@@ -77,6 +77,37 @@
   background-color: #e6000f;
 }
 
+.led-waves {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+}
+
+.first-led-wave {
+  box-shadow: 3px 0px 0 0 #c2c2c2;
+  left: 3px;
+}
+
+.second-led-wave {
+  box-shadow: 2px 0px 0 0 #c2c2c2;
+  left: 9px;
+}
+
+.third-led-wave {
+  box-shadow: 1px 0px 0 0 #c2c2c2;
+  left: 14px;
+}
+
+.power-text {
+  color: #757575;
+  font-size: 5.5px;
+  display: block;
+  margin: 4px 0 0 1px;
+  font-family: arial;
+}
+
 .screen-bottom-border-container {
   position: absolute;
   bottom: 0;
